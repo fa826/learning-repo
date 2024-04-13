@@ -16,7 +16,7 @@
         <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA9N-Prtaf6lKJxQb1-HzUwrv6-qvV_lr0xQ&s"></a>
         <div class="nav-links" id="navLinks">
             <!-- adding the icons -->
-            <i class="fa fa-fw fa-window-close-o" aria-hidden="true" onclick="hideMenu()"></i>
+            <i class="fa fa-fw fa-window-close-o" aria-hidden="true" onclick="hideMenu();"></i>
           <ul>
           <!-- menu bar items -->
             <li><a href="">HOME</a></li>
@@ -28,7 +28,7 @@
             <li><a href="">TRANSPORT</a></li>
           </ul>
         </div>
-        <i class="fa fa-fw fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        <i class="fa fa-fw fa-bars" aria-hidden="true" onclick="showMenu();"></i>
       </nav>
       <div class="text-box">
         <h1> TRAVELING AND SWAG</h1>
@@ -37,17 +37,46 @@
       </div>
     </section>
     
+    <!-- Another section for the botto, -->
+    <section class="course">
+      <h1>Courses We OFFER</h1>
+      <p>jheufuryfir<br>wruerfie</p>
+      
+      <div class="row">
+        <div class="course-col">
+          <h3>DEGREE</h3>
+          <p>jrhgoirugre</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="course-col">
+          <h3>INTERMEDIATE</h3>
+          <p>jrhgoirugre</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="course-col">
+          <h3>PST GRAD</h3>
+          <p>jrhgoirugre</p>
+        </div>
+      </div>
+    </section>
+    
     <!-- JAVASCRIPT CODE -->
     <!-- to show and hide the menu items-->
-   <Script>
-    var navLinks=document.getElementById("navLinks);
-     function showMenu(){
-     navLinks.style.right= "0";}
-    
-    function hideMenu(){
-     navLinks.style.right = "-200px";
+   <script>
+   	function hideMenu(){
+    var naLinks=document.getElementById("navLinks");
+    navLinks.style.right = "-200px";
     }
-   </Script>
+    
+    function showMenu(){
+    var naLinks=document.getElementById("navLinks");
+    navLinks.style.right = "0";
+    }    
+    
+   </script>
     
   </body>
   </html>
