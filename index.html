@@ -1,1 +1,51 @@
-
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv = "X-UA-Compatible" content = "IE = edge"/>
+    <meta  name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <tilte></tilte>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spinnaker&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head> 
+  <body>
+    <section class="header">
+      <nav>
+      <!-- LOGO image -->
+        <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA9N-Prtaf6lKJxQb1-HzUwrv6-qvV_lr0xQ&s"></a>
+        <div class="nav-links" id="navLinks">
+            <!-- adding the icons -->
+            <i class="fa fa-fw fa-window-close-o" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+          <!-- menu bar items -->
+            <li><a href="">HOME</a></li>
+            <li><a href="">AESTHETIC</a></li>
+            <li><a href="">EXPENSE CALCULATOR</a></li>
+            <li><a href="">REVIEWS</a></li>
+            <li><a href="">STAY</a></li>
+            <li><a href="">SEASONAL</a></li>
+            <li><a href="">TRANSPORT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-fw fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1> TRAVELING AND SWAG</h1>
+        <p>To make your trip planning as easy as possible.<br> We make sure that you enjoy your trip with full SWAG..</p>
+        <a href="" class="hero-btn">Check out are AESTHETICS to know more!</a>
+      </div>
+    </section>
+    
+    <!-- JAVASCRIPT CODE -->
+    <!-- to show and hide the menu items-->
+   <Script>
+   var navLinks = document.getElementByID("navLinks");
+   function showMenu() {
+   		navLinks.style.right = "0";}
+   function hideMenu() {
+      navLinks.style.right = "0";}
+</Script>
+    
+  </body>
+  </html>
