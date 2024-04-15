@@ -102,7 +102,7 @@
   }
 
 /* this max width says that when the max width is upto 700px then show the menu bar */
-@media(max-width: 1000px){
+@media(max-width: 100%){
     .text-box h1{
         font-size: 20px;
     }
